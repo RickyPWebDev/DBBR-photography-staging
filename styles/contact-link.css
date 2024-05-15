@@ -1,0 +1,31 @@
+
+/* contact link component  */
+
+.contact-link-container {
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:150px;
+}
+
+.contact-link {
+  background-color:#C90505;
+  border-radius:5%;
+  padding:20px;
+  color:white;
+  font-weight:bold;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px black ;
+}
+
+.contact-link:hover {
+    cursor: pointer;
+}
+
+.contact-link:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+     color:black;
+}

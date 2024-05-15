@@ -1,0 +1,122 @@
+
+
+
+/* Navigational links styling rules */
+
+nav {
+    position:sticky;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    /* width:90%;
+    margin-left:5%;
+    margin-right:5%; */
+    z-index:50;  
+  }
+
+  .heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  .nav-links li {
+
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+  
+  .nav-links a:hover:not(.active) {
+    background-color: lightseagreen;  
+  }
+  
+   .nav-links li a.active {
+    background-color: white;
+    border-radius:5%; 
+    color:black;
+  } 
+
+
+  /* Dropdown menu styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Mobile responsive design  */
+@media screen and (max-width: 450px) {
+
+  .heading {
+    font-size:12px;
+    padding: 10px 20px;
+  }
+
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      width: 100%;
+      justify-content: flex-start;
+      padding-left: 0;
+  }
+
+  .nav-links li {
+      margin-bottom: 10px;
+      font-size:1em;
+  }
+
+  .nav-link a {
+    font-size:5px;
+  }
+
+  .dropdown {
+      position: static;
+  }
+
+}
