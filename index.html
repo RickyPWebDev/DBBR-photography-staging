@@ -23,34 +23,38 @@
 </head>
 <body>
  
-    <nav>
+  <nav>
 
-        <div class="heading">
-  
-          <h4> DB | BR Photography</h4>
-  
+    <div class="heading">
+
+      <h4> DB | BR Photography</h4>
+
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger icon -->
+    <ul class="nav-links">
+
+      <li><a class="active" href="index.html">Home</a></li>
+
+      <li><a href="about.html">About</a></li>
+
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Services</a>
+        <div class="dropdown-content">
+            <a href="modeling.html">Modelling</a>
+            <a href="events.html">Events</a>
+            <a href="wedding.html">Wedding</a>
         </div>
-  
-        <ul class="nav-links">
-  
-          <li><a class="active" href="index.html">Home</a></li>
-  
-          <li><a href="about.html">About</a></li>
-  
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Services</a>
-            <div class="dropdown-content">
-                <a href="modeling.html">Modelling</a>
-                <a href="events.html">Events</a>
-                <a href="wedding.html">Wedding</a>
-            </div>
-        </li>
-  
-          <li><a href="contact.html">Contact</a></li>
-  
-        </ul>
-  
-      </nav>
+    </li>
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+
+
+      
 
       <div class="hero">
         <video loop muted autoplay preload="auto">
@@ -147,5 +151,6 @@
   <script src="scripts/scroll-code.js"></script>
   <script src="scripts/scrollefect.js"></script>
   <script src="scripts/app.js"></script>
+  <script src="scripts/navbar.js"></script>
 </body>
 </html>
