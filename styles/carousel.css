@@ -44,4 +44,19 @@
   .next {
     right: 0;
   }
+
+
+  @media only screen and (max-width: 450px)
+    {
+      .carousel-images img {
+        width: 80%;
+        height: 350px;
+        display: none; /* Hide all images by default */
+        border-radius:5%;
+        margin-left:10%;
+        margin-right:10%;
+      }
+      
+
+    }
  
