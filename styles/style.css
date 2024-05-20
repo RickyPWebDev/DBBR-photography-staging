@@ -207,7 +207,8 @@ label {
         form button {
             
             width:100%;
-            
+            font-size:1.2em;
+            padding:5px;
            
         }
 
