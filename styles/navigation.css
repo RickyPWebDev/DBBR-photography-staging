@@ -23,6 +23,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    padding-left:2%;
   }
 
   .nav-links {
