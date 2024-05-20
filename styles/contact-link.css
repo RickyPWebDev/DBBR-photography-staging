@@ -29,3 +29,12 @@
      outline: none;
      color:black;
 }
+
+@media screen and (max-width: 450px) {
+
+.contact-link-container {
+    margin-top: 50px;
+    margin-bottom: 20px; /* Reduced margin-bottom for mobile screens */
+  }
+
+}
