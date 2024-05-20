@@ -157,6 +157,58 @@
   .pushable:active .shadow {
     transform: translateY(1px);
     transition: transform 34ms;
+
+
+@media only screen and (max-width: 450px)
+{
+
+  .caption-2 {
+    text-align:center;
+    font-size:1.2em;
+    padding:5px;
+    margin-left:5%;
+    margin-right:5%;
+    
+  }
+
+  .logo {
+    width: 200px;
+}
+
+
+.hero video {
+  margin-left:5%;
+  margin-top:5%;
+  margin-bottom:5%;
+  width: 90%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:5;
+  object-fit:cover;
+}
+
+
+.hero video {
+ 
+  height: 70%;
+ 
+}
+
+
+
+.hero-content {
+ 
+    top:20%;
+    left:5%;
+}
+
+
+  }
+
+
+
   }
   .pushable:focus:not(:focus-visible) {
     outline: none;
