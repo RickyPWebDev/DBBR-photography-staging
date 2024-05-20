@@ -157,7 +157,10 @@
   .pushable:active .shadow {
     transform: translateY(1px);
     transition: transform 34ms;
-
+      
+  .pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
 
 @media only screen and (max-width: 450px)
 {
@@ -209,7 +212,5 @@
 
 
 
-  }
-  .pushable:focus:not(:focus-visible) {
-    outline: none;
-  }
+  
+
