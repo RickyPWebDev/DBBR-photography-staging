@@ -170,4 +170,33 @@ label {
     padding:20px;
 }
 
+/* Mobile responsive design */
+ 
+@media only screen and (max-width: 450px)
+    {
+
+
+        .home-page-content {
+          padding:5%;
+        }
+
+
+        .about-us {
+            width:80%;
+           
+        }
+
+        .founder-img {
+            width:100%;
+           
+        }
+
+
+        .modeling-content {
+            display:block;
+            width:80%;
+            margin:0 auto;
+        }
+
+    }
 
