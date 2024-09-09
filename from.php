@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST["phone"];
     $message = $_POST["message"];
 
-    // Validate and sanitize data (you may want to add more validation)
+    // Validate and sanitize data 
     $name = htmlspecialchars(trim($name));
     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
     $phone = htmlspecialchars(trim($phone));
